@@ -8,14 +8,11 @@
 .letrasSite{
      font-size: 40px;
      font-family: Arial, Helvetica, sans-serif;
-     color: #4b260b
-     
-     
+     color: #4b260b     
 }
 .letrasSite a{
      text-decoration: none;
-     color: #4b260b
-     
+     color: #4b260b     
 }
 
 
@@ -101,6 +98,24 @@ footer{
 html {
      scroll-behavior: smooth;
    }
+
+/* formulario */
+#idFormulario{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     width: 100vw;
+     height: 80vh;    
+     justify-items: center;
+     margin-top: 20px;
+}
+.letrasFormulario{
+     font-size: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+     color: #4b260b     
+}
+h3{
+     text-align: center;
+}
 
 
 
