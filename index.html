@@ -14,10 +14,11 @@
           <img id="idLogo" src="./img/logo_4food.png" alt="logoDaEmpresa">
           <h1 class="letrasSite">Fourfoodmarket</h1>
           <nav id="navegador-topo">
-               <div class="letraNavegador"><a href="quemSomos.html">Quem somos</a></div>
-               <div class="letraNavegador"><a href="nossosprodutos.html">Nossos produtos</a></div>
-               <div class="letraNavegador"><a href="formulario.html">Formulário</a></div>
-                              
+               <div class="letraNavegador"><a href="quemSomos.html">Quem somos</a></div>               
+               <div class="letraNavegador"><a href="#produtos">Nossos produtos</a></div>
+               <div class="letraNavegador"><a href="#idFormulario">Formulário</a></div>
+               <div class="letraNavegador"><a href="#AreaRedesociais">Nossas Redes Sociais</a>
+               </div>
           </nav>
      </header>
      <main>
@@ -25,6 +26,67 @@
                <img id="idFotoPrincipal"
                     src="https://img.freepik.com/vetores-gratis/equipamento-de-mercearia-mobilia-cartoon-vector-conjunto-isolado-no-fundo-branco_1441-2883.jpg?size=626&ext=jpg&ga=GA1.1.561767208.1691783013&semt=sph"
                     alt="foto mercado">
+          </section>
+
+          <section class="letrasFormulario" >
+               <section id="produtos">                
+                    <img id="item1" src="img/carnes/barbecue-1239434_1280.jpg" alt="carnes">
+                    <img id="item2" src="img/carnes/fried-chicken-250863_1280.jpg" alt="">
+                    <img id="item3" src="img/carnes/market-897990_1280.jpg" alt="">
+                    <img id="item4" src="img/carnes/pork-69429_1280.jpg" alt="">
+                    <img  id=item5 src="img/bebidas/coca-cola-2160843_1280.jpg" alt="">
+                    <img  id="item6" src="img/bebidas/food-3363683_1280.jpg" alt="">
+                    <img id="item7" src="img/bebidas/wine-3180220_1280.jpg" alt="">
+                    <img id="item8" src="img/bebidas/vista-de-garrafas-de-cerveja-em-um-balde.jpg" alt="">
+                    <img id="item9" src="img/padaria/bread-3467243_1280.jpg" alt="">
+                    <img id="item10" src="img/padaria/cake-3946227_1280.jpg"  alt="">
+                    <img id="item11" src="img/padaria/coffee-819362_1280.jpg" alt="">
+                    <img id="item12" src="img/padaria/cookie-3216243_1280.jpg" alt="">
+                    <!-- <img id="item13" src="img/higiene/handmade-1139554_1280.jpg" alt="">
+                    <img id="item14" src="img/higiene/plastic-4869878_1280.jpg" alt="">
+                    <img id="item15" src="img/higiene/sponge-4633117_1280.jpg" alt="">
+                    <img id="item16" src="img/higiene/sponge-7340068_1280.jpg" alt=""> -->
+               </section>     
+               
+          </section>
+
+          <section class="letrasFormulario" id="idFormulario">
+               <section  >
+                    <form action="">
+                         <label for="dados" id="idSecaoForm">
+                              <h3>Dados do formulário</h3>
+                         </label><br>
+                         <label for="idNome">Nome :</label><br>
+                         <input id="idNome" type="text"><br>
+                         <label for="idSobrenome">Sobrenome :</label><br>
+                         <input id="idSobrenome" type="text"><br>
+                         <label for="idEmail">E-mail :</label><br>
+                         <input id="idEmail" type="email"><br>
+                         <!-- <label for="idDataNasc">Data de nascimento :</label><br>
+                         <input id="idDataNasc" type="date"><br> -->
+                         <label for="idExpressao">Como prefere ser chamado(a) :</label><br>                         
+                         <select name="idExpressao" id="idExpressao">
+                              <option value="Senhor">Senhor</option>
+                              <option value="Senhora">Senhora</option>
+                              <option value="Caro">Caro</option>
+                              <option value="Cara">Cara</option>
+                         </select><br>
+                         <label for="idCidade"> Informe sua cidade :</label><br>
+                         <input id="idCidade" type="text"><br>
+                         <label for="idObservacoes">Observações</label><br>
+                         <textarea name="idObservacoes" id="idObservacoes" cols="30" rows="10"></textarea><br>
+
+                         <input type="submit" id="btn" onclick="enviar(event)">
+                         <input type="reset" value="Limpar Formulário"></p>
+
+                    </form>
+               </section>
+               <section id="idMeuCadastro">
+                    <label for="idMeuCadastro">
+                         <h3>Meus dados no cadastro</h3>
+                    </label>
+                    <p id="textoCadastro"></p>
+               </section>
           </section>
           <!-- <nav>
                <div id="idnav1" class="letrasSite"><a href="quemSomos.html">Quem somos</a></div>
@@ -37,14 +99,13 @@
           <label for="AreaRedesociais">
                <p class="letrasSite">Nossas Redes Sociais</p>
           </label>
-          <div>
-               <img class="redesSociais" src="./img/instagram-icone-novo_1057-2227.avif" alt="redesSociais">
-               <img class="redesSociais" src="./img/icone-do-design-whatsapp_23-2147900927.avif" alt="redesSociais">
-               <img class="redesSociais" src="./img/ilustracao-de-icone-3d-de-chamada-telefonica_235528-1427.avif"
-                    alt="redesSociais">
-               <img class="redesSociais"
-                    src="./img/notificacao-de-boletim-informativo-de-mensagem-de-e-mail-de-renderizacao-3d_107791-17000.avif"
-                    alt="redesSociais">
+          <div><a href="https://www.linkedin.com/in/thiago-rosa-831181105/" target="_blank"><img class="redesSociais"
+                         src="img/redesSocias/linked-in-2668700_1280.png" alt="linkedin"></a>
+               <a href="https://web.whatsapp.com/"><img class="redesSociais"
+                         src="img/redesSocias/icone-do-design-whatsapp_23-2147900927.avif" alt="whatsapp"></a>
+               <a href="envioEmail.html"><img class="redesSociais"
+                         src="img/redesSocias/notificacao-de-boletim-informativo-de-mensagem-de-e-mail-de-renderizacao-3d_107791-17000.avif"
+                         alt="e-mail"></a>
           </div>
           <div id="autoria">
                <p> 2023 - Site desenvolvido por Thiago Rosa</p>
