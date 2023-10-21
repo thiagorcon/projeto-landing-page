@@ -1,0 +1,103 @@
+
+
+
+
+
+
+.letraNavegador {
+     color: #4b260b
+}
+
+
+
+
+
+
+/* parte central */
+
+
+
+
+/* rodape */
+
+
+
+
+
+
+
+
+
+/* Comportamento site */
+
+
+/* formulario */
+
+.letrasFormulario {
+     font-size: 20px;
+     
+     color: #4b260b;
+     margin-top: 50px;
+
+}
+
+
+
+#textoCadastro {
+     padding: 10px;
+
+}
+
+
+
+
+
+
+
+#item1 {
+     margin-top: 5px;
+     grid-row: 1 / span 1;
+     /* height: 50%; */
+}
+
+#item2 {}
+
+#item3 {}
+
+#item4 {}
+
+#item5 {}
+
+#item6 {}
+
+#item7 {}
+
+#item8 {}
+
+#item9 {}
+
+#item10 {}
+
+#item11 {}
+
+#item12 {}
+
+
+
+
+
+
+
+
+.localizacaoEMidias {
+     text-align: center;
+     margin-bottom: 20px;
+     align-content: center;
+     width: 100%;     
+     font-size: 40px;
+     font-family: Arial, Helvetica, sans-serif;
+     color: #4b260b
+}
+
+
+

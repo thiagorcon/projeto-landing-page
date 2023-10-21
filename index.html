@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>fourfoodmarket</title>
+     <link rel="stylesheet" href="style.css">
+     <script src="javascript.js" defer></script>
+</head>
+
+<body>
+     <header>
+          <img id="idLogo" src="./img/logo_4food.png" alt="logoDaEmpresa">
+          <h1 class="letrasSite">Fourfoodmarket</h1>
+          <nav id="navegador-topo" class="dropdown">
+               <div class="letraNavegador"><a href="quemSomos.html">Quem somos</a></div>
+               <div class="letraNavegador"><a href="#produtos">Produtos</a></div>
+               <div class="letraNavegador"><a href="#idFormulario">Formulário</a></div>
+               <div class="letraNavegador"><a href="#idMidias">Mídias e Localização</a></div>
+               <div class="letraNavegador"><a href="#AreaRedeSociais">Redes Sociais</a>
+               </div>
+          </nav>
+     </header>
+     <main>
+          <section>
+               <img id="idFotoPrincipal"
+                    src="https://img.freepik.com/vetores-gratis/equipamento-de-mercearia-mobilia-cartoon-vector-conjunto-isolado-no-fundo-branco_1441-2883.jpg?size=626&ext=jpg&ga=GA1.1.561767208.1691783013&semt=sph"
+                    alt="foto mercado">
+          </section>
+          <section>
+               <section id="produtos">
+                    <img id="item1" src="img/carnes/barbecue-1239434_1280.jpg" alt="carnes">
+                    <img id="item2" src="img/carnes/fried-chicken-250863_1280.jpg" alt="">
+                    <img id="item3" src="img/carnes/market-897990_1280.jpg" alt="">
+                    <img id="item4" src="img/carnes/pork-69429_1280.jpg" alt="">
+                    <img id=item5 src="img/bebidas/coca-cola-2160843_1280.jpg" alt="">
+                    <img id="item6" src="img/bebidas/food-3363683_1280.jpg" alt="">
+                    <img id="item7" src="img/bebidas/wine-3180220_1280.jpg" alt="">
+                    <img id="item8" src="img/bebidas/vista-de-garrafas-de-cerveja-em-um-balde.jpg" alt="">
+                    <img id="item9" src="img/padaria/bread-3467243_1280.jpg" alt="">
+                    <img id="item10" src="img/padaria/cake-3946227_1280.jpg" alt="">
+                    <img id="item11" src="img/padaria/coffee-819362_1280.jpg" alt="">
+                    <img id="item12" src="img/padaria/cookie-3216243_1280.jpg" alt="">
+               </section>
+
+          </section>
+
+          <section class="letrasSite" id="idFormulario">
+               <section>
+                    <form action="" class="dados">
+                         <label for="dados" id="idSecaoForm">
+                              <h3 class="titulos">Dados do formulário</h3>
+                         </label><br>
+                         <label for="idNome">Nome :</label><br>
+                         <input id="idNome" type="text"><br>
+                         <label for="idSobrenome">Sobrenome :</label><br>
+                         <input id="idSobrenome" type="text"><br>
+                         <label for="idEmail">E-mail :</label><br>
+                         <input id="idEmail" type="email"><br>
+                         <!-- <label for="idDataNasc">Data de nascimento :</label><br>
+                         <input id="idDataNasc" type="date"><br> -->
+                         <label for="idExpressao">Como prefere ser chamado(a) :</label><br>
+                         <select name="idExpressao" id="idExpressao">
+                              <option value="Senhor">Senhor</option>
+                              <option value="Senhora">Senhora</option>
+                              <option value="Caro">Caro</option>
+                              <option value="Cara">Cara</option>
+                         </select><br>
+                         <label for="idCidade"> Informe sua cidade :</label><br>
+                         <input id="idCidade" type="text"><br>
+                         <label for="idObservacoes">Observações</label><br>
+                         <textarea name="idObservacoes" id="idObservacoes" cols="30" rows="10"></textarea><br>
+
+                         <input type="submit" id="btn" onclick="enviar(event)">
+                         <input type="reset" value="Limpar Formulário"></p>
+                    </form>
+               </section>
+               <section id="idMeuCadastro">
+                    <label for="idMeuCadastro">
+                         <h3 class="titulos">Meus dados no cadastro</h3>
+                    </label>
+                    <p id="textoCadastro"></p>
+               </section>
+          </section>
+          
+          <h1 class="titulos">Midias e Localização</h1>
+          <section id="idMidias">
+               <section>
+                    <iframe width="400" height="300" src="https://www.youtube.com/embed/rTTWvSo-kRM?si=M9hpXJhO1qmQ6YG5"
+                         title="YouTube video player" frameborder="0"
+                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                         allowfullscreen></iframe>
+               </section>
+               <section>
+                    <iframe
+                         src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3675.333717372174!2d-43.179096225616796!3d-22.901058779259138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1697737447494!5m2!1spt-BR!2sbr"
+                         width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                         referrerpolicy="no-referrer-when-downgrade"></iframe>
+               </section>
+          </section>
+     </main>
+     <footer>
+          <h3 class="titulos">Nossas Redes Sociais</h3>
+          <section>
+               <section id="AreaRedeSociais">
+                    <a href="https://www.linkedin.com/in/thiago-rosa-831181105/" target="_blank"><img
+                              class="redesSociais" src="img/redesSocias/linked-in-2668700_1280.png" alt="linkedin"></a>
+                    <a href="https://web.whatsapp.com/" target="_blank"><img class="redesSociais"
+                              src="img/redesSocias/icone-do-design-whatsapp_23-2147900927.avif" alt="whatsapp"></a>
+                    <a href="envioEmail.html" target="_blank"><img class="redesSociais"
+                              src="img/redesSocias/notificacao-de-boletim-informativo-de-mensagem-de-e-mail-de-renderizacao-3d_107791-17000.avif"
+                              alt="e-mail"></a>
+               </section>
+               <section id="autoria">                    
+                         <p class="letrasAreaRedesociais"> 2023 - Site desenvolvido por Thiago Rosa</p>
+                    
+               </section>
+     </footer>
+
+</body>
+
+</html>

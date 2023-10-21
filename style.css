@@ -1,0 +1,300 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-size: 15px;
+     
+     font-family: Arial, Helvetica, sans-serif;
+}
+.letrasSite{
+     text-align: center;
+     color: #4b260b; 
+     font-size: 30px;
+}
+.letrasSecundarias{
+text-align: center;
+color: black;
+font-size: 20px;
+}
+.letrasSite h1{
+     text-align: center;
+     color: #4b260b;
+     font-size: 30px;
+}
+.titulos{
+     margin-top: 50px;
+     margin-bottom: 20px;
+     text-align: center;
+}
+html {
+     scroll-behavior: smooth;
+}
+/* header */
+header {
+     background-color: aqua;
+     height: 15vh;
+     /* width: 99vw; */
+     position: sticky;
+     top: 0px;
+     /* position: relative;   */
+     text-align: center;
+     /* justify-content: 20px; */
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     min-height: fit-content;
+}
+nav {
+     height: 40vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     
+}
+#navegador-topo {
+     font-size: 15px;
+     font-weight: bold;
+     height: 5vh;     
+     color: #4b260b;
+     /* position: absolute; */
+     right: 0;
+     display: flexbox;
+     flex-direction: row;
+     gap: 10px;
+     margin-right: 10px;
+}
+#idLogo {
+     /* display: block; */
+     /* position: absolute; */
+     left: 0;
+     height: 15vh;
+     min-height: 100px;
+     align-self: flex-start;
+     box-shadow: 5px 5px #4b260b;
+}
+
+
+/* main */
+#idFotoPrincipal {
+     width: 90vw;
+     height: 80vh;
+     object-fit: fill;
+     margin-top: 10px;
+}
+
+/* area nossos produtos */
+#produtos {
+     width: 100vw;
+     height: 100vh;
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     grid-template-rows: repeat(4, 25vh);
+     justify-items: center;
+     /* align-content: center; */
+     align-items: center;
+     gap: 10px;
+     /* margin-top: 5px; */
+     background-color: aqua;
+}
+#produtos img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     margin-top: 100px;
+}
+/* formulario */
+#idFormulario {
+     width: 100vw;
+     height: 80vh;
+     /* display: flex;
+     flex-direction: column; 
+     justify-content: center; */
+     display: grid;
+     grid-template-columns: 1fr 1fr ;
+     grid-template-rows: 1fr ;
+     justify-items: center;
+     align-content: center;
+     gap: 10px;
+     margin-top: 50px;
+     margin-bottom: 10px;
+}
+.dados{ 
+   text-align: start;
+   margin-left: 200px;
+}
+#idMeuCadastro {margin-top: 50px;
+     margin-right: 200px;
+     text-align: justify;
+     width: 30vw;
+}
+/* midias e localização */
+#idMidias {
+     width: 100vw;
+     height: 50vh;
+     /* display: flex;
+     flex-direction: column; 
+     justify-content: center; */
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: 1fr;
+     justify-items: center;
+     align-content: center;
+     gap: 1px;
+     margin-top: 50px;
+     margin-bottom: 10px;
+}
+
+/* rodape */
+#AreaRedeSociais{
+     display: grid;
+     width: 100vw;
+     height: 13vh;
+     grid-template-columns: 1fr 1fr 1fr ;
+     /* grid-template-rows: 1fr; */
+     justify-items: center;
+     
+}
+.redesSociais {
+     /* margin: 10px ; */
+     height: 50px;
+     width: 55px;
+     align-items: center;
+     object-fit: cover;
+    
+}
+footer {
+     background-color: aqua;
+     height: 20vh; 
+     width: 99vw; 
+     justify-items: center;
+}
+#autoria {
+     background-color: gray;
+     text-align: center;
+}
+
+/* quem somos  */
+#idNoticias {
+     margin: 30px;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     width: 100vw;
+     height: 80vh;
+     justify-items: center;  
+}
+#idMidias h1 {
+     text-align: center;
+     margin-bottom: 10px;
+     width: 100%;
+}
+.fotosColab{
+     display: grid;
+     width: 100vw;
+     height: 100vh;
+     grid-template-columns: 1fr 1fr;
+     grid-row: 1fr 1fr;     
+     background-color: aqua;
+     object-fit: cover;    
+     
+     justify-items: center;
+     /* align-content: center; */
+     align-items: center;
+     gap: 10px;
+     /* margin-top: 5px; */     
+   
+}
+#iditem1QS{
+     width: 75px;
+     height: 75px;
+}
+#iditem2QS{
+     width: 75px;
+     height: 75px;
+}
+#iditem11QS{
+     width: 75px;
+     height: 75px;
+}
+#iditem12QS{
+     width: 75px;
+     height: 75px;
+}
+
+/* responsividade */
+
+@media screen and (max-width: 375px) {
+     
+     body{
+          width: 100vw;
+          height: 100vh;
+     }
+     header {
+          width: 100vw;
+          height: 20vh;
+          display: grid;
+          grid-template-columns: 1fr 2fr ;
+     }
+
+     #idLogo {
+           width: 20vw;
+          height: 5vw;  
+          object-fit: fill;         
+     }
+     
+
+     header img #idLogo{
+          
+          flex-direction: row;
+          width: 20vw;
+     }  
+
+     header h1.letrasSite {
+         display: none;
+     }
+     #navegador-topo{
+          display: grid;
+          grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+          align-self: start;
+          font-size: 5px;
+          color: black;
+     }
+
+     #idFotoPrincipal{
+          width: 100vw;
+          height: 30vh;
+          margin-bottom: 10px;
+          order: 3;
+          margin-top: -10px ;
+     }
+     #idProdutos{
+          
+          width: 100vw;
+          height: 5vh; 
+          
+     }
+     #idFormulario{
+          width: 100vw;
+          height: 100vh;
+          display: flex;
+          flex-direction: column;
+          
+          }
+          #idObservacoes{
+              display: none; 
+     }
+     #idMeuCadastro{
+          width: 50vw;
+          height: 50vh;
+     }
+     #idMidias{
+          width: 40vw;
+          height: 100vh;
+          display: flex;
+          flex-direction: column;
+     }
+
+     footer{
+          width: 100vw;
+          height: 15vh;
+     }
+}
