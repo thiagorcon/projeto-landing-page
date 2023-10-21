@@ -172,8 +172,129 @@ footer {
      background-color: gray;
      text-align: center;
 }
-/* .letrasAreaRedesociais {
+
+/* quem somos  */
+#idNoticias {
+     margin: 30px;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     width: 100vw;
+     height: 80vh;
+     justify-items: center;  
+}
+#idMidias h1 {
      text-align: center;
-     color: #4b260b;
-     margin-top: 2px;     
-} */
+     margin-bottom: 10px;
+     width: 100%;
+}
+.fotosColab{
+     display: grid;
+     width: 100vw;
+     height: 100vh;
+     grid-template-columns: 1fr 1fr;
+     grid-row: 1fr 1fr;     
+     background-color: aqua;
+     object-fit: cover;    
+     
+     justify-items: center;
+     /* align-content: center; */
+     align-items: center;
+     gap: 10px;
+     /* margin-top: 5px; */     
+   
+}
+#iditem1QS{
+     width: 75px;
+     height: 75px;
+}
+#iditem2QS{
+     width: 75px;
+     height: 75px;
+}
+#iditem11QS{
+     width: 75px;
+     height: 75px;
+}
+#iditem12QS{
+     width: 75px;
+     height: 75px;
+}
+
+/* responsividade */
+
+@media screen and (max-width: 375px) {
+     
+     body{
+          width: 100vw;
+          height: 100vh;
+     }
+     header {
+          width: 100vw;
+          height: 20vh;
+          display: grid;
+          grid-template-columns: 1fr 2fr ;
+     }
+
+     #idLogo {
+           width: 20vw;
+          height: 5vw;  
+          object-fit: fill;         
+     }
+     
+
+     header img #idLogo{
+          
+          flex-direction: row;
+          width: 20vw;
+     }  
+
+     header h1.letrasSite {
+         display: none;
+     }
+     #navegador-topo{
+          display: grid;
+          grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+          align-self: start;
+          font-size: 5px;
+          color: black;
+     }
+
+     #idFotoPrincipal{
+          width: 100vw;
+          height: 30vh;
+          margin-bottom: 10px;
+          order: 3;
+          margin-top: -10px ;
+     }
+     #idProdutos{
+          
+          width: 100vw;
+          height: 5vh; 
+          
+     }
+     #idFormulario{
+          width: 100vw;
+          height: 100vh;
+          display: flex;
+          flex-direction: column;
+          
+          }
+          #idObservacoes{
+              display: none; 
+     }
+     #idMeuCadastro{
+          width: 50vw;
+          height: 50vh;
+     }
+     #idMidias{
+          width: 40vw;
+          height: 100vh;
+          display: flex;
+          flex-direction: column;
+     }
+
+     footer{
+          width: 100vw;
+          height: 15vh;
+     }
+}

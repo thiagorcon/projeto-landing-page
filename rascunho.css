@@ -82,15 +82,7 @@
 
 #item12 {}
 
-/* quem somos  */
-#idNoticias {
-     margin: 30px;
-     display: grid;
-     grid-template-columns: 1fr 1fr;
-     width: 100vw;
-     height: 100vh;
-     justify-items: center;
-}
+
 
 
 
@@ -107,24 +99,5 @@
      color: #4b260b
 }
 
-#idMidias h1 {
-     text-align: center;
-     margin-bottom: 10px;
-     width: 100%;
-}
 
-/* responsividade */
 
-@media screen and (max-width: 375px) {
-     header {
-          width: 10px;
-          height: 5px;
-     }
-
-     #idLogo {
-          width: 2px;
-          height: 5px;
-          background-color: red;
-     }
-
-}
