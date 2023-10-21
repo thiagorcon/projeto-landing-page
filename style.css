@@ -2,24 +2,34 @@
      margin: 0;
      padding: 0;
      box-sizing: border-box;
-}
-
-/* cabeçalho */
-.letrasSite{
-     font-size: 40px;
+     font-size: 15px;
+     
      font-family: Arial, Helvetica, sans-serif;
-     color: #4b260b     
 }
-.letrasSite a{
-     text-decoration: none;
-     color: #4b260b     
+.letrasSite{
+     text-align: center;
+     color: #4b260b; 
+     font-size: 30px;
 }
-
-
- .letraNavegador{
-color: #4b260b
-} 
-
+.letrasSecundarias{
+text-align: center;
+color: black;
+font-size: 20px;
+}
+.letrasSite h1{
+     text-align: center;
+     color: #4b260b;
+     font-size: 30px;
+}
+.titulos{
+     margin-top: 50px;
+     margin-bottom: 20px;
+     text-align: center;
+}
+html {
+     scroll-behavior: smooth;
+}
+/* header */
 header {
      background-color: aqua;
      height: 15vh;
@@ -27,175 +37,143 @@ header {
      position: sticky;
      top: 0px;
      /* position: relative;   */
-     text-align: center;   
+     text-align: center;
      /* justify-content: 20px; */
      display: flex;
      align-items: center;
      justify-content: space-between;
-     min-height: fit-content;    
+     min-height: fit-content;
 }
-#navegador-topo{
-font-size: 15px;
-font-weight: bold;
-height: 5vh;
-color: #4b260b;
-
-
-/* position: absolute; */
-right: 0;
-display: flexbox;
-flex-direction: row;
-gap: 10px;
-margin-right: 10px;
-}
-#idLogo{
-     /* display: block; */
-     /* position: absolute; */
-     left: 0;
-     height: 15vh; 
-     min-height: 100px;
-     align-self: flex-start;
-     box-shadow: 5px 5px #4b260b;
-     
-}
-/* parte central */
-#idFotoPrincipal{
-     width: 90vw; 
-     height: 80vh;      
-     object-fit: fill;
-     margin-top: 10px;
-}
-
-nav{
+nav {
      height: 40vh;
      display: flex;
      flex-direction: column;
      align-items: center;
-  pro   color: #4b260b
-}
-
-/* rodape */
-footer{
-     background-color: aqua;
-     height: 30vh; 
-     /* width: 99vw;  */
      
 }
-#AreaRedesociais {
-     text-align: center;
-     color: #4b260b
-} 
-.redesSociais{
-     margin: 25px 25px 25px 25px;
-     height: 55px;
-     width: 55px;
-} 
-#autoria{
-     background-color: gray;
+#navegador-topo {
+     font-size: 15px;
+     font-weight: bold;
+     height: 5vh;     
+     color: #4b260b;
+     /* position: absolute; */
+     right: 0;
+     display: flexbox;
+     flex-direction: row;
+     gap: 10px;
+     margin-right: 10px;
+}
+#idLogo {
+     /* display: block; */
+     /* position: absolute; */
+     left: 0;
+     height: 15vh;
+     min-height: 100px;
+     align-self: flex-start;
+     box-shadow: 5px 5px #4b260b;
 }
 
 
-/* Comportamento site */
-html {
-     scroll-behavior: smooth;
-   }
+/* main */
+#idFotoPrincipal {
+     width: 90vw;
+     height: 80vh;
+     object-fit: fill;
+     margin-top: 10px;
+}
 
-/* formulario */
-#idFormulario{
+/* area nossos produtos */
+#produtos {
      width: 100vw;
-     height: 100vh;  
+     height: 100vh;
      display: grid;
-     grid-template-columns: 1fr 1fr;
-     /* grid-template-rows: 1fr 1fr;         */
-     justify-items: center;
-     align-content: center;
-     /* gap: 10px; */
-     top: 100px;
-     margin-bottom: 10px;
-    
-}
-.letrasFormulario{
-     font-size: 20px;
-     font-family: Arial, Helvetica, sans-serif;
-     color: #4b260b;  
-     margin-top: 50px;   
-     
-}
-
-h3{
-     text-align: center;
-}
-#textoCadastro{
-     padding: 10px;
-     
-}
-#idMeuCadastro{
-margin-right: 50px;
-text-align: justify;
-width: 30vw;
-
-}
-
- /* area nossos produtos */
-#produtos{
-     width: 100vw;
-     height: 90vh;  
-     display: grid ;
-     grid-template-columns: repeat(4,1fr);
-     grid-template-rows: repeat(4,25vh) ;
+     grid-template-columns: repeat(4, 1fr);
+     grid-template-rows: repeat(4, 25vh);
      justify-items: center;
      /* align-content: center; */
      align-items: center;
-     gap:10px;
-     margin-top: 65px;
-   
+     gap: 10px;
+     /* margin-top: 5px; */
+     background-color: aqua;
 }
-#produtos img{
+#produtos img {
      width: 100%;
      height: 100%;
      object-fit: cover;
-     margin-top: 170px;
+     margin-top: 100px;
 }
-
-#item1{     
-     margin-top: 5px;
-     grid-row: 1 / span 1;
-     /* height: 50%; */
-}
-#item2{
-     
-     
-}
-
-#item3{}
-#item4{}
-#item5{}
-#item6{}
-#item7{}
-#item8{}
-#item9{}
-#item10{}
-#item11{}
-#item12{}
-
-/* quem somos  */
-#idNoticias{
-     margin: 30px;
-     display: grid;
-     grid-template-columns: 1fr 1fr;     
+/* formulario */
+#idFormulario {
      width: 100vw;
-     height: 100vh;
+     height: 80vh;
+     /* display: flex;
+     flex-direction: column; 
+     justify-content: center; */
+     display: grid;
+     grid-template-columns: 1fr 1fr ;
+     grid-template-rows: 1fr ;
+     justify-items: center;
+     align-content: center;
+     gap: 10px;
+     margin-top: 50px;
+     margin-bottom: 10px;
+}
+.dados{ 
+   text-align: start;
+   margin-left: 200px;
+}
+#idMeuCadastro {margin-top: 50px;
+     margin-right: 200px;
+     text-align: justify;
+     width: 30vw;
+}
+/* midias e localização */
+#idMidias {
+     width: 100vw;
+     height: 50vh;
+     /* display: flex;
+     flex-direction: column; 
+     justify-content: center; */
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: 1fr;
+     justify-items: center;
+     align-content: center;
+     gap: 1px;
+     margin-top: 50px;
+     margin-bottom: 10px;
+}
+
+/* rodape */
+#AreaRedeSociais{
+     display: grid;
+     width: 100vw;
+     height: 13vh;
+     grid-template-columns: 1fr 1fr 1fr ;
+     /* grid-template-rows: 1fr; */
+     justify-items: center;
+     
+}
+.redesSociais {
+     /* margin: 10px ; */
+     height: 50px;
+     width: 55px;
+     align-items: center;
+     object-fit: cover;
+    
+}
+footer {
+     background-color: aqua;
+     height: 20vh; 
+     width: 99vw; 
      justify-items: center;
 }
-#idMidias{     
-     display: flexbox;
-     flex-direction: row;
-     width: 2fr;
+#autoria {
+     background-color: gray;
+     text-align: center;
 }
-
-#idMidias h1 {
-text-align: center;
-margin-bottom: 10px;
-width: 100%;
-}
-
+/* .letrasAreaRedesociais {
+     text-align: center;
+     color: #4b260b;
+     margin-top: 2px;     
+} */
